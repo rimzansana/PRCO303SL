@@ -13,7 +13,12 @@ export class HomePage extends Component {
   render() {
     return (
       <div className="home-home-page">
-        Hello Rekit!
+       Hi rekit
+        <div class="alert alert-primary" role="alert">
+  This is a primary alert—check it out!
+</div>
+
+
       </div>
     );
   }
