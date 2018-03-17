@@ -40,7 +40,7 @@ export class HomePage extends Component {
         
           <div class="container" id="search-content">
 
-            <div>
+            <div class="ml-5">
         
             <h1 class="display-4" id="txt-clr">FitAesthetics</h1>
             <p class="lead" id="txt-clr">We bring fitness to your fingertips. Find your personal trainer now.</p>
@@ -73,12 +73,11 @@ export class HomePage extends Component {
               <div class="card-body" id="move">
               <h5 class="card-title text-center">Ulisess Jr</h5>
               <p class="card-text">Ulisses Jr is one of the most sought after and highly respected bodybuilding and body composition coaches in the World.</p>
-             
-              <button type="button" class="btn btn-danger btn-lg my-sm-2 p-2 w-100">View Profile</button>
-        
               </div>
+                
+              <button type="button" class="btn btn-danger btn-lg my-sm-5 p-2 ml-4 mr-4 mb-3">View Profile</button>
 
-           </div>
+             </div>
 
             <div class="card" id="border-color">
             <img class="card-img-top w-100 p-3" src="/src/images/Profile-2.jpg" alt="Card image cap" id="card-image"/>
@@ -86,8 +85,9 @@ export class HomePage extends Component {
               <div class="card-body">
               <h5 class="card-title text-center">Simeon Panda</h5>
               <p class="card-text">hetics® Sportswear and Just Lift.®, he is a fitness entrepreneur who is featured on Forbes as one of the worlds top ten influencers for fitness</p>
-              <button type="button" class="btn btn-danger btn-lg my-sm-2 p-2 w-100 ">View Profile</button>
               </div>
+
+              <button type="button" class="btn btn-danger btn-lg my-sm-5 p-2 ml-4 mr-4 mb-3">View Profile</button>
 
             </div>
 
@@ -96,9 +96,10 @@ export class HomePage extends Component {
 
               <div class="card-body">
               <h5 class="card-title text-center">Lazar Angelov</h5>
-              <p class="card-text"> Lazar dominates other bodybuilders with balanced physique and incredible definition.As a personal trainer he has been able to transform the bodies of thousands of people and to make his motivation and knowledge contagious to them.</p>
-              <button type="button" class="btn btn-danger btn-lg my-sm-2 p-2 w-100 ">View Profile</button>
+              <p class="card-text">As a personal trainer he has been able to transform the bodies of thousands of people and to make his motivation and knowledge contagious to them.</p>
               </div>
+
+              <button type="button" class="btn btn-danger btn-lg my-sm-5 p-2 ml-4 mr-4 mb-3">View Profile</button>
 
             </div>
 
@@ -108,42 +109,7 @@ export class HomePage extends Component {
 
       </div>
 
-      </div>
-
-       
-        <div id="carouselExampleSlidesOnly" className="carousel slide" data-ride="carousel" data-interval="3000">
-        
-          <div className="carousel-inner">
-          
-
-          <div className="carousel-item active">
-          <img className="d-block w-100" src="/src/images/HomeImage.jpg" alt="First slide" />
-          </div>
-   
-         <div className="carousel-item">
-         <img className="d-block w-100" src="/src/images/pic1.png" alt="Second slide" />
-          </div>
-    
-         <div className="carousel-item">
-         <img className="d-block w-100" src="/src/images/pic3.jpg" alt="Third slide" />
-         </div>
-
-         
-
-        </div>
-
-        </div>
-
-        
-
-
-
-
-
-  
-    
-
-        
+      </div> 
 
     </div>
      
