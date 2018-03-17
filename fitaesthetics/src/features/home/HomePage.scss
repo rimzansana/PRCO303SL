@@ -1,11 +1,9 @@
 @import '../../styles/mixins';
 
-#n-container{
+#nv-container{
     background-color: #37474F;
     min-height: 5rem;
     box-shadow: 0 0.01rem 0.5rem;
-    
-
 }
 
 #txt-clr{
@@ -13,53 +11,75 @@
 }
 
 
-#j-col
+#search-container
 {
 background-color: black;
-
 height: 30rem !important;
 display: flex;
 flex-direction: column;
 justify-content: center;
-
-
-
 }
 
-
-
-#but-col{
-    background-color: #D32F2F;
-    color:#f2f2f2;
-    height: 3.7rem;
-    width: 6rem;
-
-    
+#search-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+   
 }
 
-#crd{
-   width:18rem;
-}
-
-#bg-col{
-    background-color: white;
-}
-
-#caro{
-    height: 30rem !important;
-    width: max !important;
-}
-
-#type{
+#search-input{
      height: 3.7rem;
      font-size: 1.2rem;
      width: 30rem;
      
 }
 
-#move{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-   
+#search-button{
+    background-color: #D32F2F;
+    color:#f2f2f2;
+    height: 3.7rem;
+    width: 6rem;    
 }
+
+#featured-container{
+    background-color: white;
+
+
+}
+
+#crd{
+   width:15rem;
+}
+
+
+
+#caro{
+    height: 30rem !important;
+    width: max !important;
+}
+
+#card-image{
+   Width: 10rem;
+   height :15rem;
+   border-radius: 1.5rem;
+
+
+}
+
+#border-color{
+    border-color:#db7d7d;
+}
+
+#view-profile{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+
+}
+
+#move{
+    direction: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
