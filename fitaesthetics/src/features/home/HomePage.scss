@@ -15,12 +15,13 @@
 
 #j-col
 {
-background-color: white;
-background-image: url("/src/images/HomeImage.jpg");
+background-color: black;
+
 height: 30rem !important;
 display: flex;
 flex-direction: column;
 justify-content: center;
+
 
 
 }
@@ -30,6 +31,9 @@ justify-content: center;
 #but-col{
     background-color: #D32F2F;
     color:#f2f2f2;
+    height: 3.7rem;
+    width: 6rem;
+
     
 }
 
@@ -39,4 +43,23 @@ justify-content: center;
 
 #bg-col{
     background-color: white;
+}
+
+#caro{
+    height: 30rem !important;
+    width: max !important;
+}
+
+#type{
+     height: 3.7rem;
+     font-size: 1.2rem;
+     width: 30rem;
+     
+}
+
+#move{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+   
 }
