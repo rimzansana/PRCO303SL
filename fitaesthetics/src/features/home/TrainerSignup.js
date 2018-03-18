@@ -13,7 +13,7 @@ export class TrainerSignup extends Component {
   render() {
     return (
 
-     <div class="jumbotron jumbotron-fluid" id="search-container">
+     <div class="jumbotron jumbotron-fluid" id="trainer-container">
         
           <div class="container d-flex flex-row-reverse">
 

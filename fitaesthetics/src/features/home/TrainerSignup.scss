@@ -1,8 +1,17 @@
 @import '../../styles/mixins';
 
 #signup-content{
-     display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: flex-end;
    
+}
+
+#trainer-container{
+margin: 0rem;
+background-color: black;
+height: 30rem !important;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
