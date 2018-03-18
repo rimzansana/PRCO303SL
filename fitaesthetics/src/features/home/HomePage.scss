@@ -1,50 +1,11 @@
 @import '../../styles/mixins';
 
 
-
-
-
-#featured-container{
-    background-color: white;
-}
-
-#crd{
-   width:15rem;
-}
-
-
-
 #caro{
     height: 30rem !important;
     width: max !important;
 }
 
-#card-image{
-   Width: 10rem;
-   height :15rem;
-   border-radius: 1.5rem;
 
 
-}
 
-#border-color{
-    border-color:#db7d7d;
-}
-
-#view-profile{
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
-
-}
-
-#button-color{
-    background-color: #D32F2F;
-}
-
-#signup-content{
-     display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-   
-}
