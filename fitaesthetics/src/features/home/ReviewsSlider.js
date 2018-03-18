@@ -17,18 +17,25 @@ export class ReviewsSlider extends Component {
 
       <div class="carousel-inner" id="slider-container">
 
+        
         <div class="carousel-item active">
-        <button class="btn my-2 my-sm-0 p-3 " type="submit" id="search-button">Search</button>
+        <div class="d-flex justify-content-center">
+        <img src="./src/images/Profile-1.jpg" alt="Picture one" class="rounded-circle" id="pro-settings" />
+        </div>
+        </div>
+       
+
+        <div class="carousel-item">
+        <div class="d-flex justify-content-center">
+        <img src="./src/images/Profile-2.jpg" alt="Picture two" class="rounded-circle" id="pro-settings" />
+        </div>
         </div>
 
-       <div class="carousel-item">
-       <img class="d-block w-100" src="..." alt="Second slide" />
-       </div>
-
-       <div class="carousel-item">
-       <img class="d-block w-100" src="..." alt="Third slide" />
-       </div>
-       
+        <div class="carousel-item">
+        <div class="d-flex justify-content-center">
+        <img src="./src/images/Profile-3.jpg" alt="Picture three" class="rounded-circle" id="pro-settings" />
+        </div>
+        </div>
      
      </div>
 
