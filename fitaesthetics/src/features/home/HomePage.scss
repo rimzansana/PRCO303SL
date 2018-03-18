@@ -77,9 +77,13 @@ justify-content: center;
 
 }
 
-#move{
-    direction: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+#button-color{
+    background-color: #D32F2F;
 }
 
+#signup-content{
+     display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+   
+}
