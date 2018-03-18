@@ -34,7 +34,7 @@ export class HomePage extends Component {
 
          <div id="r-container">
           <h1 class="display-5 text-center" id="r-color">Our Clients</h1>
-          <p class="lead text-center">Say About Us</p>
+          <p class="lead text-center">Say About our Trainers</p>
          </div> 
 
         <ReviewSlider />
