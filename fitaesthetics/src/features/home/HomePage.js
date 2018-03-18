@@ -8,6 +8,7 @@ import Navbar from 'src/features/home/NavigationBar.js';
 import Searchbar from 'src/features/home/SearchBar.js';
 import Featured from 'src/features/home/FeaturedTrainers.js';
 import TrainerSignUp from 'src/features/home/TrainerSignup.js';
+import ReviewSlider from 'src/features/home/ReviewsSlider.js';
 
 
 
@@ -30,6 +31,8 @@ export class HomePage extends Component {
         <Featured />
 
         <TrainerSignUp />
+
+        <ReviewSlider />
       
 
 
