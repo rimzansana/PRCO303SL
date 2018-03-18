@@ -1,0 +1,31 @@
+@import '../../styles/mixins';
+
+#search-container
+{
+background-color: black;
+height: 30rem !important;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+#search-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+   
+}
+
+#search-input{
+     height: 3.7rem;
+     font-size: 1.2rem;
+     width: 30rem;
+     
+}
+
+#search-button{
+    background-color: #D32F2F;
+    color:#f2f2f2;
+    height: 3.7rem;
+    width: 6rem;    
+}
