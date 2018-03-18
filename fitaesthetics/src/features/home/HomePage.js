@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
+import LogInForm from 'src/features/home/LogIn.js';
 
 export class HomePage extends Component {
   static propTypes = {
@@ -75,7 +76,7 @@ export class HomePage extends Component {
               <p class="card-text">Ulisses Jr is one of the most sought after and highly respected bodybuilding and body composition coaches in the World.</p>
               </div>
                 
-              <button type="button" class="btn btn-danger btn-lg my-sm-5 p-2 ml-4 mr-4 mb-3">View Profile</button>
+              <button type="button" class="btn btn-danger btn-lg my-sm-5 p-2 ml-4 mr-4 mb-3" id="button-color">View Profile</button>
 
              </div>
 
@@ -87,7 +88,7 @@ export class HomePage extends Component {
               <p class="card-text">hetics® Sportswear and Just Lift.®, he is a fitness entrepreneur who is featured on Forbes as one of the worlds top ten influencers for fitness</p>
               </div>
 
-              <button type="button" class="btn btn-danger btn-lg my-sm-5 p-2 ml-4 mr-4 mb-3">View Profile</button>
+              <button type="button" class="btn btn-danger btn-lg my-sm-5 p-2 ml-4 mr-4 mb-3" id="button-color">View Profile</button>
 
             </div>
 
@@ -99,7 +100,7 @@ export class HomePage extends Component {
               <p class="card-text">As a personal trainer he has been able to transform the bodies of thousands of people and to make his motivation and knowledge contagious to them.</p>
               </div>
 
-              <button type="button" class="btn btn-danger btn-lg my-sm-5 p-2 ml-4 mr-4 mb-3">View Profile</button>
+              <button type="button" class="btn btn-danger btn-lg my-sm-5 p-2 ml-4 mr-4 mb-3" id="button-color">View Profile</button>
 
             </div>
 
@@ -110,6 +111,34 @@ export class HomePage extends Component {
       </div>
 
       </div> 
+
+
+      <div class="jumbotron jumbotron-fluid" id="search-container">
+        
+          <div class="container d-flex flex-row-reverse">
+
+            <div>
+        
+            <h1 class="display-5 text-right" id="txt-clr">Are you a personal trainer looking to <br />grow your client base?</h1>
+            <br />
+            <p class="lead d-flex flex-row-reverse" id="txt-clr">Sign up to work with new local clients</p>
+            <hr class="my-4" />  
+            <button class="btn my-2 my-sm-1 p-3 float-right w-50" id="search-button">Learn more</button>
+         
+
+           </div>
+          </div>
+
+        </div>
+
+        <LogInForm />
+
+
+
+
+
+
+
 
     </div>
      
