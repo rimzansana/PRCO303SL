@@ -5,3 +5,4 @@ export { default as SearchBar } from './SearchBar';
 export { default as FeaturedTrainers } from './FeaturedTrainers';
 export { default as TrainerSignup } from './TrainerSignup';
 export { default as ReviewsSlider } from './ReviewsSlider';
+export { default as LogIn } from './LogIn';

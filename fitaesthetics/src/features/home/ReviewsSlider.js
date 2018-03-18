@@ -30,9 +30,9 @@ export class ReviewsSlider extends Component {
         <br />  
         </div>
 
-        <div class="d-flex justify-content-center ml-5 mr-2">
+        <div class="d-flex justify-content-center ml-3 mr-2">
         <div id="flock">
-        <p class="text-center">He asks how I am doing, demonstrates the movements for weightlifting or anything I am uncomfortable with, and pushes me to do that one extra rep! Time, money, and sweat well spent!</p>
+        <p class="text-center">"He asks how I am doing, demonstrates the movements for weightlifting or anything I am uncomfortable with, and pushes me to do that one extra rep! Time, money, and sweat well spent!"</p>
         </div>
         </div>
         
@@ -52,9 +52,9 @@ export class ReviewsSlider extends Component {
         <br />  
         </div>
 
-        <div class="d-flex justify-content-center ml-5 mr-2">
+        <div class="d-flex justify-content-center ml-3 mr-2">
         <div id="flock">
-        <p class="text-center">She recognized my weaknesses and directed focus and attention toward correcting those issues long term. I look forward to our continued path of my physical development.</p>
+        <p class="text-center">"She recognized my weaknesses and directed focus and attention toward correcting those issues long term. I look forward to our continued path of my physical development."</p>
         </div>
         </div>
         
@@ -75,9 +75,9 @@ export class ReviewsSlider extends Component {
         <br />  
         </div>
 
-        <div class="d-flex justify-content-center ml-5 mr-2">
+        <div class="d-flex justify-content-center ml-3 mr-2">
         <div id="flock">
-        <p class="text-center">I generally get bored easily with working out, but he has kept the sessions interesting. I was seeing results after only 3 sessions. I feel more confident in how I look already.</p>
+        <p class="text-center">"I generally get bored easily with working out, but he has kept the sessions interesting. I was seeing results after only 3 sessions. I feel more confident in how I look already."</p>
         </div>
         </div>
         
@@ -89,14 +89,14 @@ export class ReviewsSlider extends Component {
 
      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
      <span>
-     <img src="./src/images/Chevron-left.png" alt="icon name" />
+     <img src="./src/images/Chevron-left.png" alt="icon name" class="mb-5"/>
      </span>
      <span class="sr-only">Previous</span>
      </a>
 
      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
      <span>
-     <img src="./src/images/Chevron-right.png" alt="icon name" />
+     <img src="./src/images/Chevron-right.png" alt="icon name" class="mb-5"/>
      </span>
      <span class="sr-only">Next</span>
      </a>
