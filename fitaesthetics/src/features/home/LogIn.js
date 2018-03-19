@@ -38,7 +38,9 @@ export class LogIn extends Component {
         </form>
 
         <div>
-          <p className="text-center" >Forgot password? </p>
+            <div className="d-flex justify-content-center">
+            <a href="" data-toggle="modal" data-target="#Reset" data-dismiss="modal">Forgot your password</a>
+            </div>
           <hr />
          </div>
  

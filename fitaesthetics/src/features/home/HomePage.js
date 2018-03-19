@@ -11,6 +11,7 @@ import TrainerSignUp from 'src/features/home/TrainerSignup.js';
 import ReviewSlider from 'src/features/home/ReviewsSlider.js';
 import LogIn from 'src/features/home/LogIn.js';
 import SignUp from 'src/features/home/SignUp.js';
+import ResetPass from 'src/features/home/ResetPassword.js'
 
 
 
@@ -45,6 +46,8 @@ export class HomePage extends Component {
         <LogIn />
 
         <SignUp />
+
+        <ResetPass />
       
     </div>
      

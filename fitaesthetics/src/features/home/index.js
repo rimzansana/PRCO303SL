@@ -7,3 +7,4 @@ export { default as TrainerSignup } from './TrainerSignup';
 export { default as ReviewsSlider } from './ReviewsSlider';
 export { default as LogIn } from './LogIn';
 export { default as SignUp } from './SignUp';
+export { default as ResetPassword } from './ResetPassword';
