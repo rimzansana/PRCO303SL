@@ -1,5 +1,25 @@
 @import '../../styles/mixins';
 
-.home-log-in {
+#l-mod{
+   width: 20rem;
+   height : 20rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
 
+#mod-settings{
+    height: 20rem;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+#mod1-settings{
+    width: 30rem;
+}
+
+#input-sizing{
+    width:20rem;
+    height:2.5rem;
 }

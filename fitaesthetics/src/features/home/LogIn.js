@@ -16,19 +16,29 @@ export class LogIn extends Component {
       <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
      
       <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-      <div class="modal-header">
-      <h5 class="modal-title" id="exampleModalLongTitle">Log in</h5>
-      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-      <span aria-hidden="true">&times;</span>
-      </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-danger">Save changes</button>
-      </div>
+
+      <div class="modal-content" id="mod1-settings">
+
+        <div class="d-flex justify-content-center">
+
+        <div class="d-flex justify-content-center" id="mod-settings">
+
+      
+
+        <form id="l-mod">
+          <input type="email" class="form-control" id="input-sizing" placeholder="Email" />
+          <br />
+          <input type="password" class="form-control" id="input-sizing" placeholder="Password" />
+          <button type="button" class="btn btn-danger my-5" id="input-sizing">Log in</button>
+        </form>
+        </div>
+        
+        </div>
+
+     
+
+
+      
     </div>
   </div>
 </div>
