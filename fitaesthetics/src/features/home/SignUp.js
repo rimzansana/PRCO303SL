@@ -30,23 +30,24 @@ export class SignUp extends Component {
 
         <div className="d-flex justify-content-center" id="mod-settings">
 
-        <form id="l-mod">
+        <form id="n-mod">
 
-          <input type="email" className="form-control"  placeholder="Email" />
-          <input type="password" className="form-control my-3"  placeholder="Password" />
-          <button type="button" className="btn btn-danger my-4" id="input-sizing">Log in</button>
+          <input type="email" className="form-control my-2"  placeholder="Email" />
+          <input type="text" className="form-control my-2"  placeholder="First Name" />
+          <input type="text" className="form-control my-2"  placeholder="last Name" />
+          <input type="password" className="form-control my-2"  placeholder="Password" />
+          <button type="button" className="btn btn-danger my-4" id="input-sizing">Sign up</button>
         </form>
 
         <div>
-          <p className="text-center" >Forgot password? </p>
           <hr />
          </div>
  
 
         <div className="d-flex justify-content-center">
           <div className="d-flex flex-row">
-          <p>Don't have an account?</p>
-          <a className="ml-2">Sign Up</a>
+          <p>Already have an account?</p>
+          <a className="ml-2" href="" data-toggle="modal" data-target="#LogIN" data-dismiss="modal">Log in</a>
           </div>
 
         </div>

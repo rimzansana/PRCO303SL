@@ -46,7 +46,7 @@ export class LogIn extends Component {
         <div className="d-flex justify-content-center">
           <div className="d-flex flex-row">
           <p>Don't have an account?</p>
-         <a className="ml-2" href="" data-toggle="modal" data-target="#SignUP" data-dismiss="modal">Sign Up</a>
+         <a className="ml-2" href="" data-toggle="modal" data-target="#SignUP" data-dismiss="modal">Sign up</a>
           </div>
 
         </div>
