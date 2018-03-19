@@ -13,7 +13,7 @@ export class LogIn extends Component {
   render() {
     return (
    
-      <div className="modal fade" id="exampleModalCenter" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div className="modal fade" id="LogIN" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
      
       <div className="modal-dialog modal-dialog-centered" role="document">
 
@@ -46,7 +46,7 @@ export class LogIn extends Component {
         <div className="d-flex justify-content-center">
           <div className="d-flex flex-row">
           <p>Don't have an account?</p>
-          <a className="ml-2">Sign Up</a>
+         <a className="ml-2" href="" data-toggle="modal" data-target="#SignUP" data-dismiss="modal">Sign Up</a>
           </div>
 
         </div>

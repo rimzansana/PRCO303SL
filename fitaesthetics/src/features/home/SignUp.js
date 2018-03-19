@@ -12,9 +12,57 @@ export class SignUp extends Component {
 
   render() {
     return (
-      <div className="home-sign-up">
-        Page Content: home/SignUp
+
+     <div className="modal fade" id="SignUP" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+     
+      <div className="modal-dialog modal-dialog-centered" role="document">
+
+      <div className="modal-content" id="mod1-settings">
+
+      <div className="modal-header">
+        <h5 className="modal-title" id="exampleModalLongTitle">Sign Up</h5>
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
+
+        <div className="d-flex justify-content-center">
+
+        <div className="d-flex justify-content-center" id="mod-settings">
+
+        <form id="l-mod">
+
+          <input type="email" className="form-control"  placeholder="Email" />
+          <input type="password" className="form-control my-3"  placeholder="Password" />
+          <button type="button" className="btn btn-danger my-4" id="input-sizing">Log in</button>
+        </form>
+
+        <div>
+          <p className="text-center" >Forgot password? </p>
+          <hr />
+         </div>
+ 
+
+        <div className="d-flex justify-content-center">
+          <div className="d-flex flex-row">
+          <p>Don't have an account?</p>
+          <a className="ml-2">Sign Up</a>
+          </div>
+
+        </div>
+
+
+        </div>
+        
+        </div>
+
+     
+
+
+      
+    </div>
+  </div>
+</div>
     );
   }
 }

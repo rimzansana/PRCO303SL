@@ -10,6 +10,7 @@ import Featured from 'src/features/home/FeaturedTrainers.js';
 import TrainerSignUp from 'src/features/home/TrainerSignup.js';
 import ReviewSlider from 'src/features/home/ReviewsSlider.js';
 import LogIn from 'src/features/home/LogIn.js';
+import SignUp from 'src/features/home/SignUp.js';
 
 
 
@@ -42,6 +43,8 @@ export class HomePage extends Component {
         <ReviewSlider />
 
         <LogIn />
+
+        <SignUp />
       
     </div>
      

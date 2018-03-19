@@ -24,8 +24,8 @@ export class NavigationBar extends Component {
             <div className="navbar-nav">
                 <a className="nav-item nav-link active p-2" href="#" id="txt-clr">About<span className="sr-only">(current)</span></a>
                 <a className="nav-item nav-link p-2" href="#" id="txt-clr">Features</a>
-                <a className="nav-item nav-link p-2" href="#" id="txt-clr">Sign up</a>
-                <a className="nav-item nav-link p-2" href="" data-toggle="modal" data-target="#exampleModalCenter" id="txt-clr">Log in</a>
+                <a className="nav-item nav-link p-2" href="" data-toggle="modal" data-target="#SignUP" id="txt-clr">Sign up</a>
+                <a className="nav-item nav-link p-2" href="" data-toggle="modal" data-target="#LogIN" id="txt-clr">Log in</a>
             </div>
             
           </div>
