@@ -13,37 +13,40 @@ export class LogIn extends Component {
   render() {
     return (
    
-      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div className="modal fade" id="exampleModalCenter" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
      
-      <div class="modal-dialog modal-dialog-centered" role="document">
+      <div className="modal-dialog modal-dialog-centered" role="document">
 
-      <div class="modal-content" id="mod1-settings">
+      <div className="modal-content" id="mod1-settings">
 
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Log In</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <div className="modal-header">
+        <h5 className="modal-title" id="exampleModalLongTitle">Log In</h5>
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
 
-        <div class="d-flex justify-content-center">
+        <div className="d-flex justify-content-center">
 
-        <div class="d-flex justify-content-center" id="mod-settings">
+        <div className="d-flex justify-content-center" id="mod-settings">
 
         <form id="l-mod">
 
-          <input type="email" class="form-control" id="input-sizing" placeholder="Email" />
-          <input type="password" class="form-control my-3" id="input-sizing" placeholder="Password" />
-          <button type="button" class="btn btn-danger my-4" id="input-sizing">Log in</button>
+          <input type="email" className="form-control"  placeholder="Email" />
+          <input type="password" className="form-control my-3"  placeholder="Password" />
+          <button type="button" className="btn btn-danger my-4" id="input-sizing">Log in</button>
         </form>
-          <p class="text-center" >Forgot password?
-          <hr />
-          </p> 
 
-        <div class="d-flex justify-content-center">
-          <div class="d-flex flex-row">
+        <div>
+          <p className="text-center" >Forgot password? </p>
+          <hr />
+         </div>
+ 
+
+        <div className="d-flex justify-content-center">
+          <div className="d-flex flex-row">
           <p>Don't have an account?</p>
-          <a class="ml-2">Sign Up</a>
+          <a className="ml-2">Sign Up</a>
           </div>
 
         </div>

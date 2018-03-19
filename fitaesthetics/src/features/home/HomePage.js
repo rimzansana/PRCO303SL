@@ -35,8 +35,8 @@ export class HomePage extends Component {
         <TrainerSignUp />
 
          <div id="r-container">
-          <h1 class="display-5 text-center" id="r-color">Our Clients</h1>
-          <p class="lead text-center">Say About our Trainers</p>
+          <h1 className="display-5 text-center" id="r-color">Our Clients</h1>
+          <p className="lead text-center">Say About our Trainers</p>
          </div> 
 
         <ReviewSlider />

@@ -13,19 +13,19 @@ export class SearchBar extends Component {
   render() {
     return (
       
-         <div class="jumbotron jumbotron-fluid" id="search-container">
+         <div className="jumbotron jumbotron-fluid" id="search-container">
         
-          <div class="container" id="search-content">
+          <div className="container" id="search-content">
 
-            <div class="ml-5">
+            <div className="ml-5">
         
-            <h1 class="display-4" id="txt-clr">FitAesthetics</h1>
-            <p class="lead" id="txt-clr">We bring fitness to your fingertips. Find your personal trainer now.</p>
-            <hr class="my-4" />
+            <h1 className="display-4" id="txt-clr">FitAesthetics</h1>
+            <p className="lead" id="txt-clr">We bring fitness to your fingertips. Find your personal trainer now.</p>
+            <hr className="my-4" />
        
-            <form class="form-inline ">
-            <input class="form-control mr-sm-2 w-75 p-4 " type="search" placeholder="Try Colombo" aria-label="Search" id="search-input" />
-            <button class="btn my-2 my-sm-0 p-3 " type="submit" id="search-button">Search</button>
+            <form className="form-inline ">
+            <input className="form-control mr-sm-2 w-75 p-4 " type="search" placeholder="Try Colombo" aria-label="Search" id="search-input" />
+            <button className="btn my-2 my-sm-0 p-3 " type="submit" id="search-button">Search</button>
             </form>
 
            </div>
