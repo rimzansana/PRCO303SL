@@ -19,28 +19,28 @@ export class SignUpForm extends Component {
 
       <form>
 
-      <div class="form-group my-5 w-75">
-      <label for="formGroupExampleInput">What is your name?</label>
+      <div className="form-group my-5 w-75">
+      <label>What is your name?</label>
       <input type="text" class="form-control " placeholder="Name" aria-describedby="h-1" />
       <small id="h-1" class="form-text text-muted">
       
      </small>
       </div>
 
-     <div class="form-group my-5 w-75">
-     <label for="formGroupExampleInput2">Tell us your area</label>
+     <div className="form-group my-5 w-75">
+     <label>Tell us your area</label>
      <input type="text" class="form-control" placeholder="ex : ‘Rajagiriya’" />
      </div>
 
 
-     <div class="form-group my-5 w-75">
-     <label for="formGroupExampleInput2">How long have you been training clients for?</label>
-     <input type="text" class="form-control" placeholder="Years" aria-describedby="h-3" />
+     <div className="form-group my-5 w-75">
+     <label>How long have you been training clients for?</label>
+     <input type="text" className="form-control" placeholder="Years" aria-describedby="h-3" />
      </div>
 
-    <div class="form-group my-5 w-75">
-     <label for="formGroupExampleInput2">Select your area of expertise</label>
-     <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+    <div className="form-group my-5 w-75">
+     <label>Select your area of expertise</label>
+     <select className="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
     <option selected>Choose...</option>
     <option value="1">Bodybuilding</option>
     <option value="2">Calisthenics</option>
@@ -50,12 +50,12 @@ export class SignUpForm extends Component {
      </div>
 
 
-     <div class="form-group my-5 w-75">
-     <label for="formGroupExampleInput2">Give us your email address</label>
-     <input type="text" class="form-control" placeholder="Email Address" />
+     <div className="form-group my-5 w-75">
+     <label>Give us your email address</label>
+     <input type="text" className="form-control" placeholder="Email Address" />
      </div>
 
-     <button type="submit" class="btn btn-danger my-3 w-25">Submit</button>
+     <button type="submit" className="btn btn-danger my-3 w-25" id="button-clr">Submit</button>
 
      </form>
       </div>
