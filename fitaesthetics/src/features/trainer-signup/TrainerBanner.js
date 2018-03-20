@@ -4,17 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
-
-import Navbar from 'src/features/home/NavigationBar.js';
-import LogIn from 'src/features/home/LogIn.js';
-import SignUp from 'src/features/home/SignUp.js';
-import ResetPass from 'src/features/home/ResetPassword.js'
-import Banner from 'src/features/trainer-signup/TrainerBanner.js';
-import Form from 'src/features/trainer-signup/SignUpForm.js';
-
-
-
-export class Main extends Component {
+export class TrainerBanner extends Component {
   static propTypes = {
     trainerSignup: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
@@ -22,17 +12,14 @@ export class Main extends Component {
 
   render() {
     return (
-      <div className="trainer-signup-main">
+        
+          <div className="jumbotron jumbotron-fluid" id="search-container">
+        
+          <div className="container">
+            <h1 id="txt-clr">We connect trainers like you <br />to clients</h1>   
+          </div>
 
-      <Navbar />
-      <LogIn />
-      <SignUp />
-      <ResetPass />
-      <Banner />
-      <Form />
-
-
-      </div>
+        </div>
     );
   }
 }
@@ -54,4 +41,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Main);
+)(TrainerBanner);
