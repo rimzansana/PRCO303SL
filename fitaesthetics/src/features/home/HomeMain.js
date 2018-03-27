@@ -9,10 +9,6 @@ import Searchbar from 'src/features/home/HomeSearchBar.js';
 import Featured from 'src/features/home/HomeFeaturedTrainers.js';
 import TrainerSignUp from 'src/features/home/HomeTrainerSignup.js';
 import ReviewSlider from 'src/features/home/HomeReviewsSlider.js';
-import LogIn from 'src/features/home/HomeLoginModal.js';
-import SignUp from 'src/features/home/HomeSignupModal.js';
-import ResetPass from 'src/features/home/HomeResetPasswordModal.js'
-
 
 
 
@@ -43,11 +39,6 @@ export class HomeMain extends Component {
 
         <ReviewSlider />
 
-        <LogIn />
-
-        <SignUp />
-
-        <ResetPass />
       
     </div>
      

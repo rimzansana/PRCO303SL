@@ -25,9 +25,7 @@ export class TrainerMain extends Component {
       <div className="trainer-signup-trainer-main">
 
       <Navbar />
-      <LogIn />
-      <SignUp />
-      <ResetPass />
+      
       <Banner />
       <Form />
 

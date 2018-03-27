@@ -4,6 +4,11 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
+
+import LogIn from 'src/features/home/HomeLoginModal.js';
+import SignUp from 'src/features/home/HomeSignupModal.js';
+import ResetPass from 'src/features/home/HomeResetPasswordModal.js'
+
 export class HomeNavigationBar extends Component {
   static propTypes = {
     home: PropTypes.object.isRequired,
@@ -31,7 +36,15 @@ export class HomeNavigationBar extends Component {
           </div>
 
         </nav>
+
+         <LogIn />
+
+        <SignUp />
+
+        <ResetPass />
       </div>
+
+      
     );
   }
 }
