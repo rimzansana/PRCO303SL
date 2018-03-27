@@ -1,20 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
-import { NavigationBar } from 'src/features/home/NavigationBar';
+import { DefaultPage } from 'src/features/search/DefaultPage';
 
-describe('home/NavigationBar', () => {
+describe('search/DefaultPage', () => {
   it('renders node with correct class name', () => {
     const props = {
-      home: {},
+      search: {},
       actions: {},
     };
     const renderedComponent = shallow(
-      <NavigationBar {...props} />
+      <DefaultPage {...props} />
     );
 
     expect(
-      renderedComponent.find('.home-navigation-bar').getElement()
+      renderedComponent.find('.search-default-page').getElement()
     ).to.exist;
   });
 });

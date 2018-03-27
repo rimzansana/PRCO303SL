@@ -1,20 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
-import { ResetPassword } from 'src/features/home/ResetPassword';
+import { HomeSignupModal } from 'src/features/home/HomeSignupModal';
 
-describe('home/ResetPassword', () => {
+describe('home/HomeSignupModal', () => {
   it('renders node with correct class name', () => {
     const props = {
       home: {},
       actions: {},
     };
     const renderedComponent = shallow(
-      <ResetPassword {...props} />
+      <HomeSignupModal {...props} />
     );
 
     expect(
-      renderedComponent.find('.home-reset-password').getElement()
+      renderedComponent.find('.home-home-signup-modal').getElement()
     ).to.exist;
   });
 });

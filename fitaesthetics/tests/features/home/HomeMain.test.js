@@ -1,20 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
-import { ReviewsSlider } from 'src/features/home/ReviewsSlider';
+import { HomeMain } from 'src/features/home/HomeMain';
 
-describe('home/ReviewsSlider', () => {
+describe('home/HomeMain', () => {
   it('renders node with correct class name', () => {
-    const props = {
+    const pageProps = {
       home: {},
       actions: {},
     };
     const renderedComponent = shallow(
-      <ReviewsSlider {...props} />
+      <HomeMain {...pageProps} />
     );
 
     expect(
-      renderedComponent.find('.home-reviews-slider').getElement()
+      renderedComponent.find('.home-home-main').getElement()
     ).to.exist;
   });
 });

@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
-export class TrainerSignup extends Component {
+export class HomeTrainerSignup extends Component {
   static propTypes = {
     home: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
@@ -23,7 +23,7 @@ export class TrainerSignup extends Component {
             <br />
             <p className="lead d-flex flex-row-reverse" id="txt-clr">Sign up to work with new local clients</p>
             <hr className="my-4" />  
-            <button className="btn my-2 my-sm-1 p-3 float-right w-50" id="search-button">Learn more</button>
+            <button className="btn my-2 my-sm-1 p-3 float-right w-50" id="search-button"><a id="learn-color" href="trainer-signup/Main">Learn more </a></button>
          
 
            </div>
@@ -51,4 +51,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(TrainerSignup);
+)(HomeTrainerSignup);

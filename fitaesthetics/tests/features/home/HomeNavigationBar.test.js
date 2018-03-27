@@ -1,20 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
-import { FeaturedTrainers } from 'src/features/home/FeaturedTrainers';
+import { HomeNavigationBar } from 'src/features/home/HomeNavigationBar';
 
-describe('home/FeaturedTrainers', () => {
+describe('home/HomeNavigationBar', () => {
   it('renders node with correct class name', () => {
     const props = {
       home: {},
       actions: {},
     };
     const renderedComponent = shallow(
-      <FeaturedTrainers {...props} />
+      <HomeNavigationBar {...props} />
     );
 
     expect(
-      renderedComponent.find('.home-featured-trainers').getElement()
+      renderedComponent.find('.home-home-navigation-bar').getElement()
     ).to.exist;
   });
 });

@@ -5,10 +5,10 @@ import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
 
-import Navbar from 'src/features/home/NavigationBar.js';
-import LogIn from 'src/features/home/LogIn.js';
-import SignUp from 'src/features/home/SignUp.js';
-import ResetPass from 'src/features/home/ResetPassword.js'
+import Navbar from 'src/features/home/HomeNavigationBar.js';
+import LogIn from 'src/features/home/HomeLoginModal';
+import SignUp from 'src/features/home/HomeSignupModal.js';
+import ResetPass from 'src/features/home/HomeResetPasswordModal.js'
 import Banner from 'src/features/trainer-signup/TrainerBanner.js';
 import Form from 'src/features/trainer-signup/SignUpForm.js';
 
@@ -30,6 +30,9 @@ export class Main extends Component {
       <ResetPass />
       <Banner />
       <Form />
+
+      <div>
+      </div>
 
 
       </div>
