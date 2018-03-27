@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
-export class SignUpForm extends Component {
+export class TrainerInputForm extends Component {
   static propTypes = {
     trainerSignup: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
@@ -12,7 +12,7 @@ export class SignUpForm extends Component {
 
   render() {
     return (
-      <div className="trainer-signup-sign-up-form">
+      <div className="trainer-signup-trainer-input-form">
 
       <div className="container" id="container-size">
       <p className="lead" id="header-size">Send us your details by filling the fields below and our team will get back to you right away.</p>
@@ -81,4 +81,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(SignUpForm);
+)(TrainerInputForm);

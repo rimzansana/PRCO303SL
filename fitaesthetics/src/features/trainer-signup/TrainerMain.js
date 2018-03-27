@@ -10,11 +10,11 @@ import LogIn from 'src/features/home/HomeLoginModal';
 import SignUp from 'src/features/home/HomeSignupModal.js';
 import ResetPass from 'src/features/home/HomeResetPasswordModal.js'
 import Banner from 'src/features/trainer-signup/TrainerBanner.js';
-import Form from 'src/features/trainer-signup/SignUpForm.js';
+import Form from 'src/features/trainer-signup/TrainerInputForm.js';
 
 
 
-export class Main extends Component {
+export class TrainerMain extends Component {
   static propTypes = {
     trainerSignup: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
@@ -22,7 +22,7 @@ export class Main extends Component {
 
   render() {
     return (
-      <div className="trainer-signup-main">
+      <div className="trainer-signup-trainer-main">
 
       <Navbar />
       <LogIn />
@@ -57,4 +57,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Main);
+)(TrainerMain);

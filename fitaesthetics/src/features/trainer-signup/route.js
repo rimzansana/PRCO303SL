@@ -2,13 +2,13 @@
 // Learn more from: http://rekit.js.org/docs/routing.html
 
 import {
-  Main,
+  TrainerMain,
 } from './';
 
 export default {
   path: 'trainer-signup',
   name: 'Trainer signup',
   childRoutes: [
-    { path: 'main', name: 'Main', component: Main, isIndex: true },
+    { path: 'trainer-main', name: 'Trainer main', component: TrainerMain, isIndex: true },
   ],
 };

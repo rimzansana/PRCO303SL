@@ -1,20 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
-import { Main } from 'src/features/trainer-signup/Main';
+import { TrainerInputForm } from 'src/features/trainer-signup/TrainerInputForm';
 
-describe('trainer-signup/Main', () => {
+describe('trainer-signup/TrainerInputForm', () => {
   it('renders node with correct class name', () => {
     const props = {
       trainerSignup: {},
       actions: {},
     };
     const renderedComponent = shallow(
-      <Main {...props} />
+      <TrainerInputForm {...props} />
     );
 
     expect(
-      renderedComponent.find('.trainer-signup-main').getElement()
+      renderedComponent.find('.trainer-signup-trainer-input-form').getElement()
     ).to.exist;
   });
 });
