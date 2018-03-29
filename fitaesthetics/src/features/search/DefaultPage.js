@@ -13,7 +13,7 @@ export class DefaultPage extends Component {
   render() {
     return (
       <div className="search-default-page">
-        Page Content: search/DefaultPage
+        This is a test text!
       </div>
     );
   }
