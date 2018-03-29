@@ -9,6 +9,7 @@ import Searchbar from 'src/features/home/HomeSearchBar.js';
 import Featured from 'src/features/home/HomeFeaturedTrainers.js';
 import TrainerSignUp from 'src/features/home/HomeTrainerSignup.js';
 import ReviewSlider from 'src/features/home/HomeReviewsSlider.js';
+import Footer from 'src/features/home/HomeFooter.js';
 
 
 
@@ -38,6 +39,9 @@ export class HomeMain extends Component {
          </div> 
 
         <ReviewSlider />
+
+
+        <Footer />
 
       
     </div>

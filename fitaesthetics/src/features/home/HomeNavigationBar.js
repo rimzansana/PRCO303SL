@@ -18,6 +18,7 @@ export class HomeNavigationBar extends Component {
   render() {
     return (
       <div className="home-home-navigation-bar">
+      
          <nav className="navbar navbar-expand-lg navbar-dark" id="nv-container">
           <a className="navbar-brand mb-0 h1" href="#" id="txt-clr">FitAestheticsLk</a>
           <button className="navbar-toggler" type="button" id="txt-clr" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
