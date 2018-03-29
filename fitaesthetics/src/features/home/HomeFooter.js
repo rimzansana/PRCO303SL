@@ -9,8 +9,8 @@ export default class HomeFooter extends Component {
     return (
      <div>
       <hr />
-      <div className="home-test-component my-5">
-          <footer class="container py-5">
+      <div className="my-5">
+          <footer class="container py-5" >
       <div class="row">
         <div class="col-12 col-md">
 
@@ -29,18 +29,18 @@ export default class HomeFooter extends Component {
         
         
         <div class="col-6 col-md">
-          <h5>Resources</h5>
+          <h5>FitAesthetics</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Business</a></li>
-            <li><a class="text-muted" href="#">Education</a></li>
-            <li><a class="text-muted" href="#">Government</a></li>
-            <li><a class="text-muted" href="#">Gaming</a></li>
+            <li><a class="text-muted" href="#">Careers</a></li>
+            <li><a class="text-muted" href="#">Contact Us</a></li>
+            <li><a class="text-muted" href="#">Help</a></li>
+            <li><a class="text-muted" href="#">Blog</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
           <h5>About</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Team</a></li>
+            <li><a class="text-muted" href="#">Our Team</a></li>
             <li><a class="text-muted" href="#">Locations</a></li>
             <li><a class="text-muted" href="#">Privacy</a></li>
             <li><a class="text-muted" href="#">Terms</a></li>
