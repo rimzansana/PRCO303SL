@@ -21,7 +21,7 @@ export default class HomeFooter extends Component {
 
             <div class="my-4">
                 <p>INSERT LOG HERE </p>
-                <small class="d-block mb-3 text-muted my-3">&copy; FitAesthetics inc. All rights reserved</small>
+                
             </div>    
 
 
@@ -45,9 +45,12 @@ export default class HomeFooter extends Component {
             <li><a class="text-muted" href="#">Privacy</a></li>
             <li><a class="text-muted" href="#">Terms</a></li>
           </ul>
-        </div>
+        </div>   
       </div>
     </footer>
+
+        <hr />
+        <small class="d-block mb-3 text-muted my-3 text-center">&copy; FitAesthetics inc. All rights reserved</small>
       </div>
       </div>
     );
