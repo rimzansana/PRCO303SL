@@ -10,3 +10,4 @@ export { default as HomeSignupModal } from './HomeSignupModal';
 export { default as HomeResetPasswordModal } from './HomeResetPasswordModal';
 export { default as ReviewModal } from './ReviewModal';
 export { default as HomeFooter } from './HomeFooter';
+export { default as HomeFeatured } from './HomeFeatured';

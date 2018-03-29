@@ -10,6 +10,7 @@ import Featured from 'src/features/home/HomeFeaturedTrainers.js';
 import TrainerSignUp from 'src/features/home/HomeTrainerSignup.js';
 import ReviewSlider from 'src/features/home/HomeReviewsSlider.js';
 import Footer from 'src/features/home/HomeFooter.js';
+import FeaturedTrainer from 'src/features/home/HomeFeatured.js';
 
 
 
@@ -29,14 +30,17 @@ export class HomeMain extends Component {
        
         <Searchbar />
 
-        <Featured />
+        <FeaturedTrainer />
 
         <TrainerSignUp />
+
+        
 
          <div id="r-container">
           <h1 className="display-5 text-center" id="r-color">Our Clients</h1>
           <p className="lead text-center">Say About our Trainers</p>
          </div> 
+
 
         <ReviewSlider />
 
