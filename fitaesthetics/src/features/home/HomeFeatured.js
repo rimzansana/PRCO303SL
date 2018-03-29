@@ -51,9 +51,11 @@ export class HomeFeatured extends Component {
      
          </div>
 
-             <div class="w-100 mb-5">
+            <div class="w-100 mb-5">
             <button type="button" class="btn btn-lg  btn-outline-danger w-75">View Profile</button>
             </div>
+
+
         </div>
 
                 <div class="card mb-4 box-shadow">
@@ -66,9 +68,10 @@ export class HomeFeatured extends Component {
             </div>
          </div>
 
-               <div class="w-100 mb-5">
+            <div class="w-100 mb-5">
             <button type="button" class="btn btn-lg  btn-outline-danger w-75">View Profile</button>
             </div>
+            
         </div>
 
 

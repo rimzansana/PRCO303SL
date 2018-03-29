@@ -47,7 +47,7 @@ export class HomeSignupModal extends Component {
         <div className="d-flex justify-content-center">
           <div className="d-flex flex-row">
           <p>Already have an account?</p>
-          <a className="ml-2" href="" data-toggle="modal" data-target="#LogIN" data-dismiss="modal">Log in</a>
+          <a id="link-textcolor" className="ml-2" href="" data-toggle="modal" data-target="#LogIN" data-dismiss="modal">Log in</a>
           </div>
 
         </div>

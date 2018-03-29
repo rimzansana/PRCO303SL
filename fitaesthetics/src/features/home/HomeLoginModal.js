@@ -39,7 +39,7 @@ export class HomeLoginModal extends Component {
 
         <div>
             <div className="d-flex justify-content-center">
-            <a href="" data-toggle="modal" data-target="#Reset" data-dismiss="modal">Forgot your password</a>
+            <a id="link-textcolor" href="" data-toggle="modal" data-target="#Reset" data-dismiss="modal">Forgot your password?</a>
             </div>
           <hr />
          </div>
