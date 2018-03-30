@@ -9,8 +9,8 @@ export default class HomeFooter extends Component {
     return (
      <div>
       <hr />
-      <div className="my-5">
-          <footer class="container py-5" >
+      <div className="my-3">
+          <footer class="container py-4" >
       <div class="row">
         <div class="col-12 col-md">
 
