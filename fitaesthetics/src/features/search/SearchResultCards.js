@@ -33,8 +33,8 @@ export class SearchResultCards extends Component {
                  <div class="col w-50">
                 <a href="#">View Profile</a>
                     </div>
-                 <div class="col">
-                2 of 2
+                 <div class="col d-flex justify-content-end">
+                *****
                 </div>
                   </div>
                   </div>
