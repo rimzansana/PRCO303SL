@@ -21,12 +21,12 @@ export class SearchPageNavigator extends Component {
                     <a class="page-link" href="#" tabindex="-1">Previous</a>
                     </li>
             
-                    <li class="page-item item-danger active"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#" id="red-text">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#" id="red-text">3</a></li>
+                    <li class="page-item item-danger active"><a class="page-link red-text" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link red-text" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link red-text" href="#">3</a></li>
                     <li class="page-item">
 
-                    <a class="page-link" href="#" id="red-text">Next</a>
+                    <a class="page-link red-text" href="#">Next</a>
                     </li>
                  </ul>
            </nav>

@@ -4,7 +4,12 @@
 
 }
 
-#red-text{
-    color:#D32F2F;
+.red-text{
+    color:#D32F2F !important;
 
+}
+
+.page-item.active .page-link{
+    background-color:#D32F2F !important;
+    color: white !important;
 }
