@@ -9,6 +9,8 @@ import SearchBanner from 'src/features/search/SearchBanner.js';
 import ResultText from 'src/features/search/SearchResultText.js';
 import FilterButton from 'src/features/search/SearchFilterButtons.js';
 import ResultCardMain from 'src/features/search/SearchResultCardsMain.js';
+import PageNavigator from 'src/features/search/SearchPageNavigator.js';
+import Footer from 'src/features/home/HomeFooter.js';
 
 export class SearchMain extends Component {
   static propTypes = {
@@ -25,6 +27,8 @@ export class SearchMain extends Component {
       <ResultText />
       <FilterButton />
       <ResultCardMain />
+      <PageNavigator />
+      <Footer />
       
 
 

@@ -4,3 +4,4 @@ export { default as SearchResultText } from './SearchResultText';
 export { default as SearchFilterButtons } from './SearchFilterButtons';
 export { default as SearchResultCardsMain } from './SearchResultCardsMain';
 export { default as SearchResultCards } from './SearchResultCards';
+export { default as SearchPageNavigator } from './SearchPageNavigator';
