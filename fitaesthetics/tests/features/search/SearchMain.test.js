@@ -1,20 +1,20 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
-import { DefaultPage } from 'src/features/search/DefaultPage';
+import { SearchMain } from 'src/features/search/SearchMain';
 
-describe('search/DefaultPage', () => {
+describe('search/SearchMain', () => {
   it('renders node with correct class name', () => {
     const props = {
       search: {},
       actions: {},
     };
     const renderedComponent = shallow(
-      <DefaultPage {...props} />
+      <SearchMain {...props} />
     );
 
     expect(
-      renderedComponent.find('.search-default-page').getElement()
+      renderedComponent.find('.search-search-main').getElement()
     ).to.exist;
   });
 });

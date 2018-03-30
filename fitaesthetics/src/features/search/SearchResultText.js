@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
-export class DefaultPage extends Component {
+export class SearchResultText extends Component {
   static propTypes = {
     search: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
@@ -12,8 +12,10 @@ export class DefaultPage extends Component {
 
   render() {
     return (
-      <div className="search-default-page">
-        This is a test text!
+      <div className="search-search-result-text my-5">
+        <div className="container">
+        <p>We have Found "200" results</p>
+        </div>
       </div>
     );
   }
@@ -36,4 +38,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(DefaultPage);
+)(SearchResultText);
