@@ -4,13 +4,9 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
-import Navbar from 'src/features/home/HomeNavigationBar.js';
-import SearchBanner from 'src/features/search/SearchBanner.js';
-import ResultText from 'src/features/search/SearchResultText.js';
-import FilterButton from 'src/features/search/SearchFilterButtons.js';
-import ResultCardMain from 'src/features/search/SearchResultCardsMain.js';
+import Cards from 'src/features/search/SearchResultCards.js';
 
-export class SearchMain extends Component {
+export class SearchResultCardsMain extends Component {
   static propTypes = {
     search: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
@@ -18,20 +14,15 @@ export class SearchMain extends Component {
 
   render() {
     return (
-      <div className="search-search-main">
-
-      <Navbar />
-      <SearchBanner />
-      <ResultText />
-      <FilterButton />
-      <ResultCardMain />
-      
-
-
-
-
-
+      <div className="search-search-result-cards-main">
+  
+      <Cards />
+      <Cards />
+      <Cards />
+      <Cards />
+       
       </div>
+
     );
   }
 }
@@ -53,4 +44,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(SearchMain);
+)(SearchResultCardsMain);
