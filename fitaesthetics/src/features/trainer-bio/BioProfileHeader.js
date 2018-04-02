@@ -26,11 +26,11 @@ export class BioProfileHeader extends Component {
          <ProfilePicture />
          </div>
 
-         <div className="col-sm" id="name">
+         <div className="col-sm size">
          <ProfileText />
          </div>
 
-         <div className="col-sm d-flex justify-content-end">
+         <div className="col-sm d-flex justify-content-end size">
          <p className="text-margin text-color lead">5 Reviews</p>
          </div>
         
