@@ -10,6 +10,7 @@ import Banner from 'src/features/trainer-bio/BioProfileHeader.js';
 import Body from 'src/features/trainer-bio/BioBody.js';
 
 
+
 export class BioMain extends Component {
   static propTypes = {
     trainerBio: PropTypes.object.isRequired,
@@ -22,6 +23,7 @@ export class BioMain extends Component {
         <Navbar /> 
         <Banner />
         <Body />
+        
    
    
 

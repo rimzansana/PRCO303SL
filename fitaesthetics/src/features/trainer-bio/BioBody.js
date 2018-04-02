@@ -4,6 +4,8 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
+import Box from 'src/features/trainer-bio/BioBookingBox.js';
+
 export class BioBody extends Component {
   static propTypes = {
     trainerBio: PropTypes.object.isRequired,
@@ -27,7 +29,9 @@ export class BioBody extends Component {
 
 
             </div>
-       <div class="col-4">col-4</div>
+       <div class="col-4 d-flex justify-content-center">
+       <Box />
+       </div>
        </div>
        </div>
       </div>
