@@ -31,7 +31,10 @@ export class BioProfileHeader extends Component {
          </div>
 
          <div className="col-sm d-flex justify-content-end size">
-         <p className="text-margin text-color lead">5 Reviews</p>
+            <div className="row container d-flex justify-content-end">
+            <p className="text-color lead">5</p> 
+            <p className="text-color lead">&nbsp;Reviews</p>
+             </div>
          </div>
         
         </div>

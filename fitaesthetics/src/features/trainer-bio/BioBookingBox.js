@@ -14,7 +14,7 @@ export class BioBookingBox extends Component {
     return (
       <div className="trainer-bio-bio-booking-box">
       
-        <div class="container" id="sticky">
+        <div class="container d-flex justify-content-center " id="sticky">
       <div class="card-deck mb-3 text-center">
         <div class="card mb-4 box-shadow">
           <div class="card-header d-flex justify-content-center">

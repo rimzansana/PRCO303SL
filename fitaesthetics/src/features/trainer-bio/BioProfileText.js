@@ -13,12 +13,12 @@ export class BioProfileText extends Component {
   render() {
     return (
       <div className="trainer-bio-bio-profile-text">
-        <h1 className="text-margin text-color">Lazar Angelov</h1>
-         <p className="text-margin text-color lead">Kotte , Sri Jayawardanapura</p>
+        <h1 className="text-color">Lazar Angelov</h1>
+         <p className="text-color lead">Kotte , Sri Jayawardanapura</p>
          <br />
          <div className="row container">
-         <p className="text-margin text-color lead"><strong>Experience :</strong></p>
-         <p className="text-margin text-color lead"><strong>8 Years</strong></p>
+         <p className="text-color lead"><strong>Experience :</strong></p>
+         <p className="text-color lead ml-1"><strong> 8 Years</strong></p>
          </div>
       </div>
     );

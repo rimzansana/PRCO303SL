@@ -13,7 +13,8 @@ export class BioProfilePicture extends Component {
   render() {
     return (
       <div className="trainer-bio-bio-profile-picture">
-        <img className="flex-auto d-none d-md-block h-100" src="/src/images/card-profile.jpg" alt="Card image cap" id="profile-picture"/>
+                <img className="flex-auto d-none d-md-block h-100 box-shadow" src="/src/images/Lazar-Bio.jpg" alt="Card image cap" id="profile-picture"/>
+              
       </div>
     );
   }

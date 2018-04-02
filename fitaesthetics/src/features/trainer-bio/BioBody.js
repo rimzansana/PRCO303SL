@@ -14,7 +14,7 @@ export class BioBody extends Component {
 
   render() {
     return (
-      <div className="trainer-bio-bio-body my-5" id="bio-body-height">
+      <div className="trainer-bio-bio-body my-3" id="bio-body-height">
        <div className="container">
        <div class="row">
             <div class="container col-8">
