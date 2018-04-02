@@ -4,6 +4,9 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
+import ProfilePicture from 'src/features/trainer-bio/BioProfilePicture.js';
+import ProfileText from 'src/features/trainer-bio/BioProfileText.js';
+
 export class BioProfileHeader extends Component {
   static propTypes = {
     trainerBio: PropTypes.object.isRequired,
@@ -15,28 +18,25 @@ export class BioProfileHeader extends Component {
      
        <div className="jumbotron jumbotron-fluid" id="profile-header">
         
-         <div class="container my-5 ">
+         <div className="container my-5 ">
         
-         <div class="row d-flex align-items-center" id="row-height">
+         <div className="row d-flex align-items-center" id="row-height">
        
-         <div class="col-sm" id="txt-clr">
-         <img class="card-img-right flex-auto d-none d-md-block h-100" src="/src/images/card-profile.jpg" alt="Card image cap" id="profile-picture"/>
+         <div className="col-sm">
+         <ProfilePicture />
          </div>
-         <div class="col-sm" id="txt-clr">
-         <p className="text-margin">Lazar Angelov</p>
-         <br />
-         <p className="text-margin">Kotte , Sri Jayawardanapura</p>
-         <br />
-         <p className="text-margin">8 Years</p>
+
+         <div className="col-sm" id="name">
+         <ProfileText />
          </div>
-        <div class="col-sm text-right" id="txt-clr">
-    
-        <p className="text-margin">5 Reviews</p>
-    
-        </div>
+
+         <div className="col-sm d-flex justify-content-end">
+         <p className="text-margin text-color lead">5 Reviews</p>
+         </div>
+        
         </div>
         
-</div>
+        </div>
 
         </div>
         

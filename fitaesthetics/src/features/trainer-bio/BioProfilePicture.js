@@ -4,13 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
-
-import Navbar from 'src/features/home/HomeNavigationBar.js';
-import Banner from 'src/features/trainer-bio/BioProfileHeader.js';
-import Body from 'src/features/trainer-bio/BioBody.js';
-
-
-export class BioMain extends Component {
+export class BioProfilePicture extends Component {
   static propTypes = {
     trainerBio: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
@@ -18,16 +12,8 @@ export class BioMain extends Component {
 
   render() {
     return (
-      <div className="trainer-bio-bio-main">
-        <Navbar /> 
-        <Banner />
-        <Body />
-   
-   
-
-
-
-
+      <div className="trainer-bio-bio-profile-picture">
+        <img className="flex-auto d-none d-md-block h-100" src="/src/images/card-profile.jpg" alt="Card image cap" id="profile-picture"/>
       </div>
     );
   }
@@ -50,4 +36,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(BioMain);
+)(BioProfilePicture);
