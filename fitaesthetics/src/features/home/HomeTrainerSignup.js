@@ -23,7 +23,7 @@ export class HomeTrainerSignup extends Component {
             <br /> 
             <p className="lead d-flex flex-row-reverse txt-clr">Sign up to work with new local clients</p> 
             <hr className="my-4" />   
-            <button className="btn my-2 my-sm-1 p-3 float-right w-50" id="search-button">Learn more</button> 
+            <a href="/trainer-signup"><button className="btn my-2 my-sm-1 p-3 float-right w-50" id="search-button">Learn more</button></a>
           
  
            </div> 
