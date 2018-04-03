@@ -16,7 +16,7 @@ export class TrainerBanner extends Component {
           <div className="jumbotron jumbotron-fluid" id="search-container">
         
           <div className="container">
-            <h1 id="txt-clr">We connect trainers like you <br />to clients</h1>   
+            <h1 className="txt-clr">We connect trainers like you <br />to clients</h1>   
           </div>
 
         </div>
