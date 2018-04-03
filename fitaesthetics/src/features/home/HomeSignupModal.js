@@ -13,7 +13,7 @@ export class HomeSignupModal extends Component {
   render() {
     return (
 
-     <div className="modal fade" id="SignUP" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div className="modal fade" id="SignUP" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
      
       <div className="modal-dialog modal-dialog-centered" role="document">
 
@@ -22,14 +22,13 @@ export class HomeSignupModal extends Component {
       <div className="modal-header">
         <h5 className="modal-title" id="exampleModalLongTitle">Sign Up</h5>
         <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+        <span aria-hidden="true">&times;</span>
         </button>
       </div>
 
-        <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center">
 
         <div className="d-flex justify-content-center" id="mod-settings">
-
         <form id="n-mod">
 
           <input type="email" className="form-control my-2"  placeholder="Email" />
@@ -40,30 +39,24 @@ export class HomeSignupModal extends Component {
         </form>
 
         <div>
-          <hr />
-         </div>
- 
-
-        <div className="d-flex justify-content-center">
-          <div className="d-flex flex-row">
-          <p>Already have an account?</p>
-          <a id="link-textcolor" className="ml-2" href="" data-toggle="modal" data-target="#LogIN" data-dismiss="modal">Log in</a>
-          </div>
-
+        <hr />
         </div>
 
+        <div className="d-flex justify-content-center">
+
+          <div className="d-flex flex-row">
+            <p>Already have an account?</p>
+            <a id="link-textcolor" className="ml-2" href="" data-toggle="modal" data-target="#LogIN" data-dismiss="modal">Log in</a>
+          </div>
+          
+        </div>
 
         </div>
         
-        </div>
-
-     
-
-
-      
+    </div>   
     </div>
-  </div>
-</div>
+    </div>
+    </div>
     );
   }
 }

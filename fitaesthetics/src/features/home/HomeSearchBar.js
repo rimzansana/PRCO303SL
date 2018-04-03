@@ -24,8 +24,8 @@ export class HomeSearchBar extends Component {
             <hr className="my-4" />
        
             <form className="form-inline ">
-            <input className="form-control mr-sm-2 w-75 p-4 " type="search" placeholder="Try Colombo" aria-label="Search" id="search-input" />
-            <button className="btn my-2 my-sm-0 p-3 " type="submit" id="search-button">Search</button>
+                <input className="form-control mr-sm-2 w-75 p-4 " type="search" placeholder="Try Colombo" aria-label="Search" id="search-input" />
+                <button className="btn my-2 my-sm-0 p-3 " type="submit" id="search-button">Search</button>
             </form>
 
            </div>

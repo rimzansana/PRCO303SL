@@ -26,24 +26,16 @@ export class HomeMain extends Component {
     <div id="container">
     
         <Navbar />
-       
         <Searchbar />
-
         <FeaturedTrainer />
-
         <TrainerSignUp />
 
-        
-
-         <div id="r-container">
-          <h1 className="display-5 text-center" id="r-color">Our Clients</h1>
-          <p className="lead text-center">Say About our Trainers</p>
-         </div> 
-
+        <div id="r-container">
+            <h1 className="display-5 text-center" id="r-color">Our Clients</h1>
+            <p className="lead text-center">Say About our Trainers</p>
+        </div> 
 
         <ReviewSlider />
-
-
         <Footer />
 
       

@@ -39,13 +39,14 @@ export class HomeNavigationBar extends Component {
 
         </nav>
 
-         <LogIn />
+        <LogIn />
 
         <SignUp />
 
         <ResetPass />
 
         <Review />
+        
       </div>
 
       
