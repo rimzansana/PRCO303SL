@@ -39,7 +39,7 @@ export class HomeResetPasswordModal extends Component {
 
         <div className="d-flex justify-content-center mb-5">
           <div className="d-flex flex-row">
-            <a id="link-textcolor" className="my-2 mr-5" href="" data-toggle="modal" data-target="#LogIN" data-dismiss="modal"> Back to Login</a>
+            <a className="my-2 mr-5 link-textcolor" href="" data-toggle="modal" data-target="#LogIN" data-dismiss="modal"> Back to Login</a>
             <button type="button" className="btn btn-danger ml-5" >Send Link</button>
           </div>
 

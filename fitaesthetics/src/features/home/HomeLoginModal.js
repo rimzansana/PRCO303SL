@@ -38,7 +38,7 @@ export class HomeLoginModal extends Component {
 
         <div>
             <div className="d-flex justify-content-center">
-            <a id="link-textcolor" href="" data-toggle="modal" data-target="#Reset" data-dismiss="modal">Forgot your password?</a>
+            <a className="link-textcolor" href="" data-toggle="modal" data-target="#Reset" data-dismiss="modal">Forgot your password?</a>
             </div>
 
         <hr />
@@ -48,7 +48,7 @@ export class HomeLoginModal extends Component {
         <div className="d-flex justify-content-center">
           <div className="d-flex flex-row">
             <p>Don't have an account?</p>
-            <a id="link-textcolor" className="ml-2" href="" data-toggle="modal" data-target="#SignUP" data-dismiss="modal">Sign up</a>
+            <a className="ml-2 link-textcolor" href="" data-toggle="modal" data-target="#SignUP" data-dismiss="modal">Sign up</a>
           </div>
         </div>
 
