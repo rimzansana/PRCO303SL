@@ -2,13 +2,13 @@
 // Learn more from: http://rekit.js.org/docs/routing.html
 
 import {
-  DefaultPage,
+  BookingMain,
 } from './';
 
 export default {
   path: 'booking-info',
   name: 'Booking info',
   childRoutes: [
-    { path: 'default-page', name: 'Default page', component: DefaultPage, isIndex: true },
+    { path: 'booking-main', name: 'Booking main', component: BookingMain, isIndex: true },
   ],
 };

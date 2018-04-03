@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from './redux/actions';
 
-export class DefaultPage extends Component {
+export class BookingStepsText extends Component {
   static propTypes = {
     bookingInfo: PropTypes.object.isRequired,
     actions: PropTypes.object.isRequired,
@@ -12,8 +12,14 @@ export class DefaultPage extends Component {
 
   render() {
     return (
-      <div className="booking-info-default-page">
-        Page Content: booking-info/DefaultPage
+      <div className="booking-info-booking-steps-text container my-5">
+        <h5>Follow two simple steps to book your training sessions.</h5>
+
+        <div  className="row container my-5">
+        <p><strong>1. Define your goal</strong></p>
+         <p> &nbsp;&nbsp;&nbsp;> &nbsp;  2. Confirm and pay</p>
+        </div>
+       
       </div>
     );
   }
@@ -36,4 +42,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(DefaultPage);
+)(BookingStepsText);
