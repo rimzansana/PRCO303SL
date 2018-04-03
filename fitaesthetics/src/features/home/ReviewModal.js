@@ -32,9 +32,9 @@ export default class ReviewModal extends Component {
     <div className="d-flex justify-content-center">
 
         <div className="d-flex justify-content-center">
-            <form id="l-mod">
+            <form className="l-mod">
                 <textarea type="text" className="form-control"  placeholder="Describe your experience" id="review-input"/>
-                <button type="button" className="btn btn-danger my-4" id="input-sizing">Submit review</button>
+                <button type="button" className="btn btn-danger my-4 input-sizing">Submit review</button>
             </form>
         </div>
         

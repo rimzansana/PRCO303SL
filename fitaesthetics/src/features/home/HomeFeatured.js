@@ -15,7 +15,7 @@ export class HomeFeatured extends Component {
       <div className="home-home-featured">
       <div className="pb-md-4 mx-auto text-center">
       <h1 className="display-5 text-center">Our Featured Trainers</h1>
-      <p classNamw="lead">Pick from the highest rated trainers for this month</p>
+      <p className="lead">Pick from the highest rated trainers for this month</p>
     </div>
 
     <div className="container">

@@ -19,8 +19,8 @@ export class HomeSearchBar extends Component {
 
             <div className="ml-5">
         
-            <h1 className="display-4" id="txt-clr">FitAesthetics</h1>
-            <p className="lead" id="txt-clr">We bring fitness to your fingertips. Find your personal trainer now.</p>
+            <h1 className="display-4 txt-clr" id="txt-clr">FitAesthetics</h1>
+            <p className="lead txt-clr" >We bring fitness to your fingertips. Find your personal trainer now.</p>
             <hr className="my-4" />
        
             <form className="form-inline ">

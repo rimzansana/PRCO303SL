@@ -19,9 +19,9 @@ export class HomeTrainerSignup extends Component {
  
             <div> 
          
-            <h1 className="display-5 text-right" id="txt-clr">Are you a personal trainer looking to <br />grow your client base?</h1> 
+            <h1 className="display-5 text-right txt-clr">Are you a personal trainer looking to <br />grow your client base?</h1> 
             <br /> 
-            <p className="lead d-flex flex-row-reverse" id="txt-clr">Sign up to work with new local clients</p> 
+            <p className="lead d-flex flex-row-reverse txt-clr">Sign up to work with new local clients</p> 
             <hr className="my-4" />   
             <button className="btn my-2 my-sm-1 p-3 float-right w-50" id="search-button">Learn more</button> 
           

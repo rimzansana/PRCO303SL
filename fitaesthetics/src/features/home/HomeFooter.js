@@ -11,7 +11,7 @@ export default class HomeFooter extends Component {
       <hr />
 
       <div className="my-3">
-        <footer class="container py-4" >
+        <footer className="container py-4" >
         <div className="row">
 
             <div className="col-12 col-md">

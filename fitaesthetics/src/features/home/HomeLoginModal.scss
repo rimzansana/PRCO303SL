@@ -1,6 +1,6 @@
 @import '../../styles/mixins';
 
-#l-mod{
+.l-mod{
    width: 20rem;
    height : 15rem;
    display: flex;
@@ -20,7 +20,7 @@
     
 }
 
-#input-sizing{
+.input-sizing{
     width:20rem;
     height:2.5rem;
 }
