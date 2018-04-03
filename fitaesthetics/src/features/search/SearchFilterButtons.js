@@ -16,15 +16,15 @@ export class SearchFilterButtons extends Component {
       
         <div className="container my-5">
 
-        <div class="dropdown">
-        <button class="btn btn-lg dropdown-toggle button-settings" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <div className="dropdown">
+        <button className="btn btn-lg dropdown-toggle button-settings" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
          City 
         </button>
 
-       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-       <a class="dropdown-item" href="#">Action</a>
-       <a class="dropdown-item" href="#">Another action</a>
-       <a class="dropdown-item" href="#">Something else here</a>
+       <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+       <a className="dropdown-item" href="#">Action</a>
+       <a className="dropdown-item" href="#">Another action</a>
+       <a className="dropdown-item" href="#">Something else here</a>
        </div>
        </div>
 

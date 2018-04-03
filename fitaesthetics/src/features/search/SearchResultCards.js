@@ -12,92 +12,89 @@ export class SearchResultCards extends Component {
 
   render() {
     return (
-      <div className="search-search-result-cards">
-            <div class="container">
+    <div className="search-search-result-cards">
+    <div className="container">
 
-         <div class="row mb-2">
+    <div className="row mb-2">
 
-         
+        <div className="col-md-6">
 
-            <div class="col-md-6">
-       
-               <div class="card flex-md-row mb-4 box-shadow h-md-250">
-               <img class="card-img-right flex-auto d-none d-md-block h-100" src="/src/images/card-profile.jpg" alt="Card image cap" width="160" />
-               <div class="card-body d-flex flex-column align-items-start">
+            <div className="card flex-md-row mb-4 box-shadow h-md-250">
+                <img className="card-img-right flex-auto d-none d-md-block h-100" src="/src/images/card-profile.jpg" alt="Card image cap" width="160" />
+                <div className="card-body d-flex flex-column align-items-start">
 
-                <h3 class="mb-0">
-                <a class="text-dark">Lazar Angelov</a>
-                </h3>
+                    <h3 className="mb-0">
+                    <a className="text-dark">Lazar Angelov</a>
+                    </h3>
 
-              <div class="text-muted">Body building , Calisthenics and cardio</div>
+                 <div className="text-muted">Body building , Calisthenics and cardio</div>
 
-              <p class=" my-4 d-flex">Experience :<p> &nbsp; 5 Years</p></p>
-              <p class=" mb-auto d-flex">15000<p> &nbsp;LKR per month</p></p>
+                    <p className=" my-4 d-flex">Experience :<p> &nbsp; 5 Years</p></p>
+                    <p className=" mb-auto d-flex">15000<p> &nbsp;LKR per month</p></p>
 
                 
-                <div class="w-100">
+                <div className="w-100">
 
-                <div class="row">
-                  <div class="col w-50">
-                  <a href="#" id="view-link">View Profile</a>
-                  </div>
+                    <div className="row">
+                        <div className="col w-50">
+                        <a href="#" id="view-link">View Profile</a>
+                        </div>
 
-                  <div class="col d-flex justify-content-end">
-                  *****
-                  </div>
+                        <div className="col d-flex justify-content-end">
+                        *****
+                        </div>
 
-                  </div>
-                  </div>
+                    </div>
+                </div>
                
-              </div>
+                </div>
 
-            
-            
             </div>
-          </div>
+
+        </div>
       
-           <div class="col-md-6">
+        <div className="col-md-6">
        
-               <div class="card flex-md-row mb-4 box-shadow h-md-250">
-               <img class="card-img-right flex-auto d-none d-md-block h-100" src="/src/images/card-profile.jpg" alt="Card image cap" width="160" />
-               <div class="card-body d-flex flex-column align-items-start">
+            <div className="card flex-md-row mb-4 box-shadow h-md-250">
+                <img className="card-img-right flex-auto d-none d-md-block h-100" src="/src/images/card-profile.jpg" alt="Card image cap" width="160" />
+                <div className="card-body d-flex flex-column align-items-start">
 
-                <h3 class="mb-0">
-                <a class="text-dark">Lazar Angelov</a>
-                </h3>
+                    <h3 className="mb-0">
+                    <a className="text-dark">Lazar Angelov</a>
+                    </h3>
 
-              <div class="text-muted">Body building , Calisthenics and cardio</div>
+                    <div className="text-muted">Body building , Calisthenics and cardio</div>
+                    <p className=" my-4 d-flex">Experience :<p> &nbsp; 5 Years</p></p>
+                    <p className=" mb-auto d-flex">15000<p> &nbsp;LKR per month</p></p>
 
-              <p class=" my-4 d-flex">Experience :<p> &nbsp; 5 Years</p></p>
-              <p class=" mb-auto d-flex">15000<p> &nbsp;LKR per month</p></p>
+                        
+                    <div className="w-100">
 
-                
-                <div class="w-100">
+                        <div className="row">
+                            <div className="col w-50">
+                            <a href="#" id="view-link">View Profile</a>
+                            </div>
 
-                <div class="row">
-                  <div class="col w-50">
-                  <a href="#" id="view-link">View Profile</a>
-                  </div>
+                            <div className="col d-flex justify-content-end">
+                            *****
+                            </div>
 
-                  <div class="col d-flex justify-content-end">
-                  *****
-                  </div>
-
-                  </div>
-                  </div>
-               
-              </div>
+                        </div>
+                    </div>
+                    
+                </div>
 
             
             
             </div>
-          </div>
+
+        </div>
        
 
 
-      </div>
     </div>
-      </div>
+    </div>
+    </div>
     );
   }
 }
