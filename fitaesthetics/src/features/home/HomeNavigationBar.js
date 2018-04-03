@@ -21,7 +21,7 @@ export class HomeNavigationBar extends Component {
       <div className="home-home-navigation-bar">
       
          <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="nv-container">
-          <a className="navbar-brand mb-0 h1 txt-clr" href="#">FitAestheticsLk</a>
+          <a className="navbar-brand mb-0 h1 txt-clr" href="/">FitAestheticsLk</a>
           <button className="navbar-toggler txt-clr" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
              <span className="navbar-toggler-icon" />
           </button>
