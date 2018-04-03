@@ -50,7 +50,7 @@ export class HomeReviewsSlider extends Component {
         </div>
 
         <div className="d-flex justify-content-center ml-3 mr-2">
-            <div id="flock">
+            <div id="r-div">
             <p className="text-center">"She recognized my weaknesses and directed focus and attention toward correcting those issues long term. I look forward to our continued path of my physical development."</p>
             </div>
         </div>
@@ -71,7 +71,7 @@ export class HomeReviewsSlider extends Component {
         </div>
 
         <div className="d-flex justify-content-center ml-3 mr-2">
-        <div id="flock">
+        <div id="r-div">
         <p className="text-center">"I generally get bored easily with working out, but he has kept the sessions interesting. I was seeing results after only 3 sessions. I feel more confident in how I look already."</p>
         </div>
         </div>

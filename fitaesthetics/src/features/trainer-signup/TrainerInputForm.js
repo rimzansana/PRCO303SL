@@ -21,15 +21,15 @@ export class TrainerInputForm extends Component {
 
       <div className="form-group my-5 w-75">
       <label>What is your name?</label>
-      <input type="text" class="form-control " placeholder="Name" aria-describedby="h-1" />
-      <small id="h-1" class="form-text text-muted">
+      <input type="text" className="form-control " placeholder="Name" aria-describedby="h-1" />
+      <small id="h-1" className="form-text text-muted">
       
      </small>
       </div>
 
      <div className="form-group my-5 w-75">
      <label>Tell us your area</label>
-     <input type="text" class="form-control" placeholder="ex : ‘Rajagiriya’" />
+     <input type="text" className="form-control" placeholder="ex : ‘Rajagiriya’" />
      </div>
 
 
@@ -41,7 +41,7 @@ export class TrainerInputForm extends Component {
     <div className="form-group my-5 w-75">
      <label>Select your area of expertise</label>
      <select className="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
-    <option selected>Choose...</option>
+    <option default>Choose...</option>
     <option value="1">Bodybuilding</option>
     <option value="2">Calisthenics</option>
     <option value="3">Bodyweight training</option>
