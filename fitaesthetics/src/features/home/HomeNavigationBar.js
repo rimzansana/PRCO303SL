@@ -8,6 +8,7 @@ import * as actions from './redux/actions';
 import LogIn from 'src/features/home/HomeLoginModal.js';
 import SignUp from 'src/features/home/HomeSignupModal.js';
 import ResetPass from 'src/features/home/HomeResetPasswordModal.js'
+import Review from 'src/features/home/ReviewModal.js';
 
 export class HomeNavigationBar extends Component {
   static propTypes = {
@@ -29,7 +30,7 @@ export class HomeNavigationBar extends Component {
            
             <div className="navbar-nav">
                 <a className="nav-item nav-link active p-2" href="#" id="txt-clr">About<span className="sr-only">(current)</span></a>
-                <a className="nav-item nav-link p-2" href="#" id="txt-clr">Features</a>
+                <a className="nav-item nav-link p-2" href="" data-toggle="modal" data-target="#Review" id="txt-clr">Features</a>
                 <a className="nav-item nav-link p-2" href="" data-toggle="modal" data-target="#SignUP" id="txt-clr">Sign up</a>
                 <a className="nav-item nav-link p-2" href="" data-toggle="modal" data-target="#LogIN" id="txt-clr">Log in</a>
             </div>
@@ -43,6 +44,8 @@ export class HomeNavigationBar extends Component {
         <SignUp />
 
         <ResetPass />
+
+        <Review />
       </div>
 
       
