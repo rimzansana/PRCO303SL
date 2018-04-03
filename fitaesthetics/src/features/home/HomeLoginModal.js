@@ -17,7 +17,7 @@ export class HomeLoginModal extends Component {
      
       <div className="modal-dialog modal-dialog-centered" role="document">
 
-      <div className="modal-content" id="mod1-settings">
+      <div className="modal-content mod1-settings">
 
       <div className="modal-header">
         <h5 className="modal-title" id="exampleModalLongTitle">Log In</h5>
@@ -28,7 +28,7 @@ export class HomeLoginModal extends Component {
 
         <div className="d-flex justify-content-center">
 
-        <div className="d-flex justify-content-center" id="mod-settings">
+        <div className="d-flex justify-content-center mod-settings">
 
         <form className="l-mod">
           <input type="email" className="form-control"  placeholder="Email" />

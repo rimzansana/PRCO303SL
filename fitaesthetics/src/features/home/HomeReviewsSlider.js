@@ -31,7 +31,7 @@ export class HomeReviewsSlider extends Component {
         </div>
 
         <div className="d-flex justify-content-center ml-3 mr-2">
-            <div id="flock">
+            <div id="r-div">
             <p className="text-center">"He asks how I am doing, demonstrates the movements for weightlifting or anything I am uncomfortable with, and pushes me to do that one extra rep! Time, money, and sweat well spent!"</p>
             </div>
         </div>

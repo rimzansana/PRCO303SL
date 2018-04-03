@@ -16,7 +16,7 @@ export class HomeResetPasswordModal extends Component {
      
       <div className="modal-dialog modal-dialog-centered" role="document">
 
-      <div className="modal-content" id="hod1-settings">
+      <div className="modal-content">
 
       <div className="modal-header">
         <h5 className="modal-title" id="exampleModalLongTitle">Reset Password</h5>
