@@ -13,19 +13,25 @@ export class HomeTrainerSignup extends Component {
   render() {
     return (
 
-    <div className="jumbotron jumbotron-fluid" id="trainer-container">
-        
-        <div className="container d-flex flex-row-reverse">
-        
-            <h1 className="display-5 text-right" id="txt-clr">Are you a personal trainer looking to<br />grow your client base?</h1>
-            <br />
-            <p className="lead d-flex flex-row-reverse" id="txt-clr">Sign up to work with new local clients</p>
-            <hr className="my-4" />  
-            <a href="trainer-signup/trainer-main"><button className="btn my-2 my-sm-1 p-3 float-right w-50" id="search-button">Learn more </button></a>
+  <div class="jumbotron jumbotron-fluid" id="search-container"> 
+         
+          <div class="container d-flex flex-row-reverse"> 
+ 
+            <div> 
+         
+            <h1 class="display-5 text-right" id="txt-clr">Are you a personal trainer looking to <br />grow your client base?</h1> 
+            <br /> 
+            <p class="lead d-flex flex-row-reverse" id="txt-clr">Sign up to work with new local clients</p> 
+            <hr class="my-4" />   
+            <button class="btn my-2 my-sm-1 p-3 float-right w-50" id="search-button">Learn more</button> 
           
-        </div>
-
-    </div>
+ 
+           </div> 
+          </div> 
+ 
+        </div> 
+    
+      
     );
   }
 }
