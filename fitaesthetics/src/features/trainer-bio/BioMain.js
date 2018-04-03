@@ -23,13 +23,6 @@ export class BioMain extends Component {
         <Navbar /> 
         <Banner />
         <Body />
-        
-   
-   
-
-
-
-
       </div>
     );
   }

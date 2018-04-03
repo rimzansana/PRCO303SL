@@ -13,21 +13,24 @@ export class BioReviewsView extends Component {
   render() {
     return (
       <div className="trainer-bio-bio-reviews-view">
-            <div class="row">
-                <div class="col-sm">
+            <div className="row">
+                
+                <div className="col-sm">
                 <h6>Reviews</h6>
                 </div>
-                <div class="col-sm d-flex justify-content-end">
+
+                <div className="col-sm d-flex justify-content-end">
                 <img src="src/images/Review-icon.png" className="image-prop"/>
                 </div>
                 </div>
 
-                  <div className="my-5">
+                <div className="my-5">
                 <p>"He asks how I am doing, demonstrates the movements for weightlifting or anything I am uncomfortable with, and pushes me to do that one extra rep! Time, money, and sweat well spent!"</p>
-                    <div className="row container">
-                    <p>-</p>
-                    <p>Rimzan Sadikeen</p>
-                    </div>
+
+                <div className="row container">
+                <p>-</p>
+                <p>Rimzan Sadikeen</p>
+                </div>
 
                 </div>
       </div>

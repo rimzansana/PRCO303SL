@@ -20,8 +20,8 @@ export class BioBody extends Component {
     return (
       <div className="trainer-bio-bio-body my-3" id="bio-body-height">
        <div className="container">
-       <div class="row">
-            <div class="container col-8">
+       <div className="row">
+            <div className="container col-8">
                 <BioText />
                 <hr />
                 <Specialization />
@@ -31,7 +31,7 @@ export class BioBody extends Component {
                 <Reviews />
 
             </div>
-            <div class="col-4 d-flex justify-content-center">
+            <div className="col-4 d-flex justify-content-center">
             <Box />
             </div>
        </div>

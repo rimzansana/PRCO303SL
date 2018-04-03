@@ -14,38 +14,38 @@ export class BioBookingBox extends Component {
     return (
       <div className="trainer-bio-bio-booking-box">
       
-        <div class="container d-flex justify-content-center " id="sticky">
-      <div class="card-deck mb-3 text-center">
-        <div class="card mb-4 box-shadow">
-          <div class="card-header d-flex justify-content-center">
-                <div className="row">
-                <h5>Rs.</h5>
-            <h5 class="my-0 font-weight-normal">20000
-             <small class="text-muted"> per month</small>
+        <div className="container d-flex justify-content-center " id="sticky">
+        <div className="card-deck mb-3 text-center">
+        <div className="card mb-4 box-shadow">
+
+        <div className="card-header d-flex justify-content-center">
+            <div className="row">
+            <h5>Rs.</h5>
+            <h5 className="my-0 font-weight-normal">20000
+            <small className="text-muted"> per month</small>
             </h5>
             </div>
-          </div>
-
-
-          <div class="card-body">
-            <div class="row">
-            <div class="col">From</div>
-            <div class="col">To</div>
-            </div>
-
-           
-        
-              <button type="button" class="btn btn-lg btn-block btn-danger my-5">Book</button>
-      
-              <hr />
-
-              <div class="row">
-            <div class="col-9">You can hire your trainer upto<strong> 12 months</strong></div>
-            <div class="col-2"><img src="src/images/Calendar-icon.png" /></div>
-            </div>
-          </div>
         </div>
-      </div>
+
+
+        <div className="card-body">
+            <div className="row">
+             <div className="col">From</div>
+             <div className="col">To</div>
+            </div>
+   
+             <button type="button" className="btn btn-lg btn-block btn-danger my-5">Book</button>  
+             <hr />
+
+            <div className="row">
+                <div className="col-9">You can hire your trainer upto<strong> 12 months</strong></div>
+                <div className="col-2"><img src="src/images/Calendar-icon.png" /></div>
+            </div>
+
+        </div>
+
+        </div>
+        </div>
 
       </div>
       </div>
