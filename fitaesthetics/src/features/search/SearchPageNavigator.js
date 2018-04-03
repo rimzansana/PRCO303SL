@@ -18,12 +18,12 @@ export class SearchPageNavigator extends Component {
             <nav>
                  <ul className="pagination justify-content-center">
                     <li className="page-item disabled">
-                    <a className="page-link" href="#" tabindex="-1">Previous</a>
+                    <a className="page-link" href="#" tabIndex="-1">Previous</a>
                     </li>
             
-                    <li className="page-item item-danger active"><a class="page-link red-text" href="#">1</a></li>
-                    <li className="page-item"><a class="page-link red-text" href="#">2</a></li>
-                    <li className="page-item"><a class="page-link red-text" href="#">3</a></li>
+                    <li className="page-item item-danger active"><a className="page-link red-text" href="#">1</a></li>
+                    <li className="page-item"><a className="page-link red-text" href="#">2</a></li>
+                    <li className="page-item"><a className="page-link red-text" href="#">3</a></li>
                     <li className="page-item">
 
                     <a className="page-link red-text" href="#">Next</a>
